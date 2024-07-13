@@ -1,0 +1,25 @@
+.updateProduct{
+    font-size: 3rem;
+    position: relative;
+}
+.ProductDeleteButton{
+    font-size: 2rem;
+    color: white;
+    background-color: red;
+    border: none;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    right: 15px;
+    top: 72px;
+}
+.ProductDeleteButton:hover{
+    background-color: rgb(122, 0, 0);
+    transform: scale(1.05);
+    transition: 0.1s ease;
+}
+.ProductDeleteButton:active{
+    transform: scale(1);
+    transition: 0.1s ease;
+}

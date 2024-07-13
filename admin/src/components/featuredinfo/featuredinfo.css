@@ -1,0 +1,42 @@
+.featured{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.featuredItem{
+    flex: 1;
+    margin: 0px 20px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 1px -1px 25px -3px rgba(84,84,84,0.75);
+}
+.featureTitle{
+    font-size: 2rem;
+}
+.featuredNegativeIcon{
+    color: red;
+}
+.featuredPositiveIcon{
+    color: green;
+}
+.featuredMoneyContainer{
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.featureMoney{
+    font-size: 3rem;
+    margin-right: 20px;
+}
+.featureMoneyRate{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+.featurecardInfo{
+    font-size: 1.5rem;
+    color: #444;
+}

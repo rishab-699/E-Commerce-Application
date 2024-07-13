@@ -1,0 +1,106 @@
+.addProduct{
+    width: 100%;
+}
+.form{
+    width: 100%;
+}
+.formTitle{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #444;
+    width: 100%;
+}
+.form form{
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.addFormImgContainer{
+    flex: 1;
+    
+}
+.addFormImgContainer img{
+    width: 225px;
+    height: 300px;
+    aspect-ratio: 4/3;
+    background-color: #e2e2e2;
+    
+}
+.addProductDetails{
+    flex: 2;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.addImgForm{
+    margin-top: 5px;
+    width: 100%;
+    display: block;
+}
+.addImgForm .uploadIcon{
+    font-size: 5rem;
+    color: white;
+    background-color: rgb(0, 0, 75);
+    display: block;
+
+    width: 100%;
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+    width: 90%;
+}
+
+.input-container .inputTitle{
+    font-size: 2rem;
+    color: #444;
+}
+.input-container .addInputTag{
+    width: 100%;
+    font-size: 2rem;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.addInputTag:focus{
+    outline: none;
+}
+.sizes, .input-row{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.sbtBtnContainer{
+    position: relative;
+}
+.addProductBtn{
+    font-size: 2rem;
+    font-weight: 800;
+    color: white;
+    background-color: rgb(0, 0, 85);
+    border: none;
+    border-radius: 3px;
+    position: absolute;
+    right: 10px;
+    padding: 0.5em 0.8em;
+}
+.addProductBtn:hover{
+    background-color: rgb(0, 0, 46);
+    transform: scale(1.1);
+    transition: all 0.2s ease;
+}
+.addProductBtn:active{
+    transform: scale(1);
+    transition: all 0.2s ease;
+}
+.formErr{
+    font-size: 2rem;
+    font-size: 800;
+    color: red;
+}

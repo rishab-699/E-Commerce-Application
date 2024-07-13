@@ -1,0 +1,47 @@
+.widgetsm{
+    flex: 1;
+    box-shadow: 1px -1px 25px -3px rgba(84,84,84,0.75);
+    padding: 20px;
+    margin: 18px;
+    max-width: 300px;
+}
+
+.widgetsm table{
+    width: 90%;
+}
+.widgetsm table thead tr th{
+    font-size: 1.6rem;
+    padding: 5px;
+    margin: 2px;
+}
+thead{
+    border-bottom: 1.5px solid grey;
+}
+.widgetsm table tbody tr{
+    width: 90%;
+}
+.widgetsm table tbody tr td{
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 5px;
+    margin: 2px;
+    width: 99%;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+tr :hover{
+    background-color: rgb(238, 238, 238);
+}
+.widgetsm table tbody tr :nth-child(3){
+    max-width: 120px !important;
+    text-align: left;
+    
+}
+.email:hover {
+    overflow: visible;
+}
+td{
+    width: 13%;
+}

@@ -1,0 +1,219 @@
+.orderdata{
+    flex: 4;
+    position: relative;
+}
+.orderdata h1{
+    margin-bottom: 8px;
+}
+.deleteBtn{
+    font-size: 2rem;
+    color: white;
+    background-color: red;
+    border: none;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    right: 15px;
+    top: 1px;
+}
+.deleteBtn:hover{
+    background-color: rgb(122, 0, 0);
+    transform: scale(1.05);
+    transition: 0.1s ease;
+}
+.deleteBtn:active{
+    transform: scale(1);
+    transition: 0.1s ease;
+}
+.orderlist{
+    padding: 10px;
+}
+.orderlistOrderHead{
+    display: flex;
+    justify-content: space-between;
+}
+.userInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.orderContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.orderProductContainer{
+    width: 99%;
+    height: 250px;
+    overflow: hidden;
+    overflow-y: scroll;
+
+}
+.orderlistData{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    border: 1.5px solid rgb(80, 80, 80);
+    padding: 8px;
+    border-radius: 5px;
+}
+.orderlistOrderId{
+    display: flex;
+    gap: 10px;
+}
+.labels{
+    font-size: 2rem;
+    color: rgb(44, 140, 219);
+    font-weight: 800;
+}
+.orderlistOrderData{
+    font-size: 2rem;
+    font-weight: 800;
+    color: rgb(65, 65, 65);
+}
+.orderlistOrderProducts{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 18px;
+}
+.orderProductsLeft{
+    flex: 4;
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+    overflow-y: auto;
+}
+.orderProductsRight{
+    flex: 2;
+}
+.orderProductsRight .billDetails{
+    width: 100%;
+}
+.orderProduct{
+    display: flex;
+    gap: 10px;
+}
+.pt-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5em;
+    margin: 10px 0;
+}
+.order-pricing{
+    padding: 5px;
+    border: 1px solid #444;
+    border-radius: 3px;
+}
+.total{
+    border-top: 1px solid #444;
+    width: 100%;
+    justify-content: flex-end !important;
+    gap: 10px;
+}
+.total h5{
+    font-size: 2rem;
+    width: fit-content !important;
+}
+.confirm{
+    font-size: 2rem;
+    background-color: #094297;
+    padding: 0.5em 0;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    right: 10px;
+    left: 10px;
+    bottom: 10px;
+}
+.confirm:hover{
+    background-color: #072c64;
+    transform: scale(1.01);
+    transition: 0.2s ease;
+}
+.confirm:active{
+    transform: scale(1);
+}
+.pt-row p{
+    font-size: 1.8rem;
+}
+.order-pricing h4{
+    font-size: 2rem;
+}
+.productDetailTitle{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.productInfo{
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    border: 1px solid #444;
+    padding: 3px;
+    border-radius: 5px;
+    position: relative;
+}
+.shipmentId{
+    font-size: 1.5rem;
+    padding: 5px;
+    border: 1px solid rgb(95, 95, 95);
+    border-radius: 3px;
+}
+.cancel-btn{
+    font-size: 2.5rem;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background: none;
+    border: none;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.productInfo img{
+    height: 160px;
+    width: 120px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+.productInfoContent{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    width: 100%;
+}
+.pTitle, .pPrice{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.pSubTitle{
+    font-size: 1.8rem;
+    color: #666666;
+}
+.pSize{
+    font-size: 2rem;
+    padding: 0.3em;
+    background-color: #c5c5c5;
+}
+.measurements input{
+    font-size: 2rem;
+    padding: 0.4em;
+    width: 10%;
+    height: 50%;
+}
+.measurements{
+    display: flex;
+    gap: 100px;
+}
+
+
+@media (max-width: 900px) {
+    .product{
+        flex-direction: column;
+    }
+}

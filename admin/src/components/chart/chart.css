@@ -1,0 +1,27 @@
+.chart{
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 1px -1px 25px -3px rgba(84,84,84,0.75);
+    font-size: 30px;
+}
+.chartTitle{
+    margin-bottom: 20px;
+    font-size: 3rem !important;
+}
+
+.recharts-cartesian-axis-tick-value {
+    font-size: 2rem; 
+    color: red;
+}
+
+/* Change font size of Tooltip content */
+.recharts-tooltip-item {
+    font-size: 2rem; /* Adjust the font size as needed */
+    color: black;
+}
+
+/* Change font size of legend */
+.recharts-legend-item-text {
+    font-size: 2rem; /* Adjust the font size as needed */
+    color: blue;
+}

@@ -1,0 +1,81 @@
+.widgetlg{
+    flex: 2;
+    box-shadow: 1px -1px 25px -3px rgba(84,84,84,0.75);
+    padding: 20px;
+    margin: 18px;
+
+}
+.homepg{
+    max-width: 600px;
+}
+.widgetlg table{
+    width: 100%;
+}
+thead tr th{
+    font-size: 1.6rem;
+    padding: 5px;
+    margin: 2px;
+}
+thead{
+    border-bottom: 1.5px solid grey;
+}
+tr td{
+    font-size: 1.8rem;
+    cursor: pointer;
+    padding: 5px;
+    margin: 2px;
+}
+tr :hover{
+    background-color: rgb(238, 238, 238);
+}
+tr :nth-child(3){
+    width: 16% !important;
+    text-align: left;
+}
+td{
+    width: 13%;
+}
+
+.ViewCompleteOrderBtn{
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(0, 92, 153);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    height: 100%;
+    width: 100%;
+}
+.ViewCompleteOrderBtn:hover{
+    background-color: rgb(0, 63, 105);
+}
+.shipped{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: rgb(19, 148, 30);
+    background-color: rgba(24, 177, 37, 0.432);
+    border: 1.2px solid rgb(19, 148, 30);
+    border-radius: 5px;
+    padding: 4px;
+    
+}
+.pending{
+    font-size: 1.4rem;
+    font-weight: 900;
+    color: rgb(77, 77, 77);
+    background-color: rgba(199, 199, 199, 0.432);
+    border: 2px solid rgb(122, 122, 122);
+    border-radius: 5px;
+    padding: 4px 0;
+    
+}
+.shipped:hover{
+    background-color: rgba(24, 177, 37, 0.432);
+}
+.pending :hover{
+    background-color: rgba(199, 199, 199, 0.432);
+}
+.orderType{
+    width: 95%;
+}
