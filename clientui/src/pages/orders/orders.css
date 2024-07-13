@@ -1,0 +1,152 @@
+h1{
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+    
+}
+.order{
+    width: 100%;
+}
+.order form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.AddressForm, .orderSection, .paymentDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 15em;    
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+}
+.input-container label{
+    font-size: 2rem;
+    color: rgb(92, 92, 92);
+}
+.input-container .addressInput{
+    font-size: 2rem;
+    padding: 0.3em 0.2em;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.addressInput:focus{
+    outline: none;
+}
+.multipleInput{
+    display: flex;
+    gap: 15px;
+}
+.formErr{
+    font-size: 2rem;
+    color: red;
+}
+.noDisp{
+    display: none;
+}
+.addressFormButton{
+    font-size: 2rem;
+    color: white;
+    background-color: #f31c80;
+    padding: 0.1em 0.3em;
+    border: none;
+    border-radius: 3px;
+}
+.addressFormButton :hover{
+    background-color: #851046 ;
+}
+/*OrderSection css*/
+.orderSection{
+    position: relative;
+    width: 100%;
+}
+.orderSectionBackBtn{
+    position: absolute;
+    font-size: 2rem;
+    color: white;
+    font-weight: 800;
+    background-color: #0e11a0;
+    padding: 0.5em 0.8em;
+    border: none;
+    border-radius: 3px;
+    left: 18px;
+    top: 3px;
+}
+.orderSectionBackBtn:hover{
+    background-color: #080957;
+}
+.orderBillInfo{
+    width: 100%;
+}
+.address{
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 60%;
+    margin: auto;
+}
+.addressContainer{
+    display: flex;
+    gap: 18px;
+}
+.addressInfo{
+    font-size: 2rem;
+    color: grey;
+
+}
+.billDetails{
+    width: 60%;
+    margin: auto;
+}
+.paymentdetailschkBox{
+    display: none;
+}
+.checkButtonLabel {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 10px 20px;;
+    color: #f31c80;
+    border: 1px solid #f31c80;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+.paymentDetails{
+    margin: auto;
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+  .paymentdetailschkBox:checked + .checkButtonLabel{
+    background-color: #f31c80;
+    border-color: #f31c80;
+    color: white;
+  }
+
+  .orderSection .addressFormButton{
+    width: 20%;
+    margin: auto;
+  }
+  @media (max-width: 500px) {
+    .order {
+        padding: 10px;
+        width: 90%;
+    }
+    .address, .billDetails{
+        width: 100%;
+    }
+    .orderSectionBackBtn{
+        display: none;
+    }
+    .orderSection .addressFormButton {
+        width: 50%;
+    }
+  }

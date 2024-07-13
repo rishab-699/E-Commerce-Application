@@ -1,0 +1,79 @@
+.productsContainer{
+    display: flex;
+    gap: 18px;
+    padding: 15em;
+    height: 100vh;
+}
+.filterTab{
+    flex: 2;
+    background-color: #fafafa;
+    padding: 5em;
+    position: relative;
+}
+.product{
+    flex: 10;
+}
+.product h5{
+    font-size: 3rem;
+}
+.products{
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10em;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.filterbtn{
+    font-size: 2.5rem;
+    text-align: center;
+    background-color: rgb(0, 0, 128);
+    color: white;
+    font-weight: 600;
+    padding: 0.5em 0.8em;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    border: none;
+    border-radius: 0.3em;
+}
+.filterbtn:hover{
+    background-color: rgb(0, 0, 85);
+}
+.filterbtn:active{
+    transform: translateY(3px);
+}
+.nodisp{
+    display: none;
+}
+.filter .main-category, .price-category{
+    border-top: 1px solid grey;
+    margin-top: 60em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1em 10em;
+    width: 100%;
+}
+.input-group{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 18px;
+    width: 100%;
+}
+
+@media (max-width: 900px) {
+    .productsContainer{
+        flex-direction: column;
+    }
+    .filter{
+        display: none;
+    }
+    .responsiveFilter{
+        display: block;
+    }
+}

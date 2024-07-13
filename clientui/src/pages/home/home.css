@@ -1,0 +1,21 @@
+.home{
+    z-index: 0;
+    position: relative;
+}
+.np{
+    margin: 50px 1px;
+}
+.np-container{
+    display: flex;
+    gap: 15em;
+    margin: 5px 1px;
+    overflow-x: auto;
+    height: 400px;
+}
+.npTitle{
+    font-size: 3rem;
+    font-weight: 500;
+    font-style: italic;
+    letter-spacing: 0.3rem;
+    padding: 5em 1em;
+}

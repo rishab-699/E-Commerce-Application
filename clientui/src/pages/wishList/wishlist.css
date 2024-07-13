@@ -1,0 +1,15 @@
+.WishListBtn{
+    background-color: #FF3E6C;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    padding: 1em 2em;
+    letter-spacing: 0.2rem;
+    border: 1px solid #FF3E6C;
+    border-radius: 0.2em;
+}
+
+.WishListBtn:hover{
+    background-color: #7e172f;
+}

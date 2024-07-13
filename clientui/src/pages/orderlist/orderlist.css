@@ -1,0 +1,73 @@
+.orderlist{
+    padding: 10px;
+}
+.orderlistOrderHead{
+    display: flex;
+    justify-content: space-between;
+}
+.orderContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.orderlistData{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    border: 1.5px solid rgb(80, 80, 80);
+    padding: 8px;
+    border-radius: 5px;
+}
+.orderlistOrderId{
+    display: flex;
+    gap: 10px;
+}
+.labels{
+    font-size: 2rem;
+    color: rgb(44, 140, 219);
+    font-weight: 800;
+}
+.orderlistOrderData{
+    font-size: 2rem;
+    font-weight: 800;
+    color: rgb(65, 65, 65);
+}
+.orderlistOrderProducts{
+    display: flex;
+    width: 100%;
+    gap: 18px;
+}
+.orderProductsLeft{
+    flex: 4;
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+    overflow-y: auto;
+}
+.orderProductsRight{
+    flex: 2;
+}
+.orderProductsRight .billDetails{
+    width: 100%;
+}
+.orderProduct{
+    display: flex;
+    gap: 10px;
+}
+
+@media (max-width:500px) {
+    .orderlistOrderHead{
+        flex-wrap: wrap;
+    }
+    .labels, .orderlistOrderData{
+        font-size: 1.5rem;
+    }
+    .orderlistOrderProducts{
+        flex-direction: column;
+    }
+    .orderProductsLeft{
+        flex-wrap: nowrap;
+        overflow: hidden;
+        overflow-x: auto;
+    }
+}

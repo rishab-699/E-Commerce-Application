@@ -1,0 +1,135 @@
+.product-content{
+    display: flex;
+    gap: 30em;
+    padding: 5px;
+}
+.product-images{
+    flex: 6;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    max-width: 900px;
+}
+.product-infos{
+    flex: 6;
+}
+
+.product-images .img{
+    height: 360px;
+    width: 270px;
+}
+.product-images .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.product-infos, .product-infos .head-sec{
+    width: 100%;
+}
+.head-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20em;
+}
+.head-sec #price{
+    margin-top: 1em;
+}
+.product-infos .sizes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20em;
+    margin-top: 50em;
+}
+
+.product-infos .sizes .size-btn{
+    border-radius: 50%;
+    font-size: 2rem;
+    padding: 0.5em;
+    background: white;
+    border: 1px solid grey;
+}
+.size-btn:nth-child(1):hover{
+    border: 1.5px solid #B14A00;
+}
+.size-btn:nth-child(2):hover{
+    border: 1.5px solid #B14A00;
+}.size-btn:nth-child(3):hover{
+    border: 1.5px solid #B14A00;
+}.size-btn:nth-child(4):hover{
+    border: 1.5px solid #B14A00;
+}
+.size-btn:active{
+    transform: translateY(4px);
+}
+
+.selected{
+    background-color: #B14A00 !important;
+    color: white;
+    border-radius: 50%;
+    font-size: 2rem;
+    padding: 0.5em;
+}
+.order-btns{
+    display: flex;
+    justify-content: space-around;
+    gap: 40em;
+    padding: 30em;
+    margin-top: 50em;
+}
+.order-btns .bag-btn{
+    background-color: #FF3E6C;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 1em 2em;
+    letter-spacing: 0.2rem;
+    border: 1px solid #FF3E6C;
+    border-radius: 0.2em;
+}
+.order-btns .wishlist-btn{
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 1em 2em;
+    letter-spacing: 0.2rem;
+    border: 1px solid grey;
+    background-color: white;
+    border-radius: 0.2em;
+}
+.bag-btn:hover{
+    background-color: #7e172f;
+}
+.wishlist-btn:hover{
+    border: 2px solid black;
+}
+.productdetails{
+    display: flex;
+    flex-direction: column;
+    gap: 30em;
+    margin-top: 50em;
+    border-top: 1px solid grey;
+}
+
+@media (max-width: 500px) {
+    .product-content{
+        flex-direction: column;
+    }
+    .product-images{
+        display: block;
+        object-fit: cover;
+        max-height: 800px;
+    }
+    .product-images .img{
+        height: 100%;
+        width: 100%;
+    }
+    .order-btns .bag-btn, .order-btns .wishlist-btn {
+        font-size: 1.6rem;
+    }
+
+}

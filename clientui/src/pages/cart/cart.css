@@ -1,0 +1,133 @@
+.cart h5{
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+
+}
+
+.cartProduct{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+.productDetail{
+    width: 100%;
+    flex: 9;
+    overflow: hidden;
+    overflow-y: auto;
+
+    height: 440px;
+}
+.billDetail{
+    flex: 3;
+}
+.productDetailTitle{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.productInfo{
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    border: 1px solid #444;
+    padding: 3px;
+    border-radius: 5px;
+    position: relative;
+}
+.cancel-btn{
+    font-size: 2.5rem;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background: none;
+    border: none;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.productInfo img{
+    height: 160px;
+    width: 120px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+.productInfoContent{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    width: 100%;
+}
+.pTitle, .pPrice{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.pSubTitle{
+    font-size: 1.8rem;
+    color: #666666;
+}
+.pSize{
+    font-size: 2rem;
+    padding: 0.3em;
+    background-color: #c5c5c5;
+}
+.measurements input{
+    font-size: 2rem;
+    padding: 0.4em;
+    width: 10%;
+    height: 50%;
+}
+.measurements{
+    display: flex;
+    gap: 100px;
+}
+.pt-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5em;
+    margin: 10px 0;
+}
+.order-pricing{
+    padding: 5px;
+    border: 1px solid #444;
+    border-radius: 3px;
+}
+.total{
+    border-top: 1px solid #444;
+    width: 100%;
+    justify-content: flex-end !important;
+    gap: 10px;
+}
+.total h5{
+    font-size: 2rem;
+    width: fit-content !important;
+}
+.book-order{
+    font-size: 2rem;
+    background-color: #f31c80;
+    padding: 0.5em 0;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    right: 10px;
+    left: 10px;
+    bottom: 10px;
+}
+.book-order:hover{
+    background-color: #8f0f4b;
+}
+.book-order:active{
+    transform: translateY(-5px);
+}
+
+@media (max-width: 900px) {
+    .product{
+        flex-direction: column;
+    }
+    .cartProduct, .productInfo{
+        flex-direction: column;
+    }
+}

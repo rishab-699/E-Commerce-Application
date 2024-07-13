@@ -1,0 +1,48 @@
+.Ads{
+    width: 100%;
+    height: 250px;
+    position: relative;
+    margin-top: 3em;
+    overflow: hidden;
+    z-index: 2;
+}
+.slick-slider, .slick-track, .slick-list{
+    height: 100%;
+    width: 100%;
+}
+.slide{
+    background-color: grey;
+    margin: auto;
+}
+.slide-pointer{
+    border-radius: 50%;
+    background-color: rgb(73, 73, 73);
+    height: 6em;
+    width: 6em;
+}
+.slide-pointer:hover{
+    background-color: white;
+}
+
+/* AutoSlider.css */
+
+.slick-track {
+    display: flex !important;
+    width: 100%;
+    align-items: center; /* Center the slides vertically within the track */
+  }
+  
+  .slick-slide {
+    text-align: center;
+    max-width: 100% !important; /* Set maximum width for each slide */
+    height: auto !important; /* Set height to auto to maintain aspect ratio */
+  }
+  
+  .slick-slide img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto; /* Set width to auto to maintain aspect ratio */
+    height: auto; /* Set height to auto to maintain aspect ratio */
+    margin: 0 auto; /* Center the image within the slide */
+  }
+  
