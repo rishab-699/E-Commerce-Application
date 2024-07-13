@@ -117,9 +117,3 @@ MongoDB Collections Schemas:
     }]
     
 },{timestamps:true})
-
-To download this application fork this repositary
-
-also forkm this two repositaries
-https://github.com/rishab-699/E-Commerce--Admin
-https://github.com/rishab-699/E-Commerce-Client
